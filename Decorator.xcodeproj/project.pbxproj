@@ -13,6 +13,11 @@
 		BDDC641528AE973300BB3FE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDC641328AE973300BB3FE7 /* Main.storyboard */; };
 		BDDC641728AE973500BB3FE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDDC641628AE973500BB3FE7 /* Assets.xcassets */; };
 		BDDC641A28AE973500BB3FE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDC641828AE973500BB3FE7 /* LaunchScreen.storyboard */; };
+		BDDC642228AE9AC100BB3FE7 /* MersedesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDC642128AE9AC100BB3FE7 /* MersedesProtocol.swift */; };
+		BDDC642428AE9B6200BB3FE7 /* Mercedes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDC642328AE9B6200BB3FE7 /* Mercedes.swift */; };
+		BDDC642828AE9C2900BB3FE7 /* MercedesDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDC642728AE9C2900BB3FE7 /* MercedesDecorator.swift */; };
+		BDDC642A28AE9DFD00BB3FE7 /* PanoramicRoof.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDC642928AE9DFD00BB3FE7 /* PanoramicRoof.swift */; };
+		BDDC642C28AE9F1A00BB3FE7 /* AlloyWheels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDC642B28AE9F1A00BB3FE7 /* AlloyWheels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		BDDC641628AE973500BB3FE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDDC641928AE973500BB3FE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDDC641B28AE973500BB3FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDDC642128AE9AC100BB3FE7 /* MersedesProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MersedesProtocol.swift; sourceTree = "<group>"; };
+		BDDC642328AE9B6200BB3FE7 /* Mercedes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mercedes.swift; sourceTree = "<group>"; };
+		BDDC642728AE9C2900BB3FE7 /* MercedesDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MercedesDecorator.swift; sourceTree = "<group>"; };
+		BDDC642928AE9DFD00BB3FE7 /* PanoramicRoof.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanoramicRoof.swift; sourceTree = "<group>"; };
+		BDDC642B28AE9F1A00BB3FE7 /* AlloyWheels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlloyWheels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +66,34 @@
 		BDDC640C28AE973300BB3FE7 /* Decorator */ = {
 			isa = PBXGroup;
 			children = (
+				BDDC642628AE9BFF00BB3FE7 /* Decorator */,
 				BDDC640D28AE973300BB3FE7 /* AppDelegate.swift */,
 				BDDC640F28AE973300BB3FE7 /* SceneDelegate.swift */,
 				BDDC641128AE973300BB3FE7 /* ViewController.swift */,
+				BDDC642528AE9BF400BB3FE7 /* Car */,
 				BDDC641328AE973300BB3FE7 /* Main.storyboard */,
 				BDDC641628AE973500BB3FE7 /* Assets.xcassets */,
 				BDDC641828AE973500BB3FE7 /* LaunchScreen.storyboard */,
 				BDDC641B28AE973500BB3FE7 /* Info.plist */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		BDDC642528AE9BF400BB3FE7 /* Car */ = {
+			isa = PBXGroup;
+			children = (
+				BDDC642128AE9AC100BB3FE7 /* MersedesProtocol.swift */,
+				BDDC642328AE9B6200BB3FE7 /* Mercedes.swift */,
+			);
+			path = Car;
+			sourceTree = "<group>";
+		};
+		BDDC642628AE9BFF00BB3FE7 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				BDDC642728AE9C2900BB3FE7 /* MercedesDecorator.swift */,
+				BDDC642B28AE9F1A00BB3FE7 /* AlloyWheels.swift */,
+				BDDC642928AE9DFD00BB3FE7 /* PanoramicRoof.swift */,
 			);
 			path = Decorator;
 			sourceTree = "<group>";
@@ -139,8 +170,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDDC641228AE973300BB3FE7 /* ViewController.swift in Sources */,
+				BDDC642A28AE9DFD00BB3FE7 /* PanoramicRoof.swift in Sources */,
+				BDDC642428AE9B6200BB3FE7 /* Mercedes.swift in Sources */,
 				BDDC640E28AE973300BB3FE7 /* AppDelegate.swift in Sources */,
+				BDDC642828AE9C2900BB3FE7 /* MercedesDecorator.swift in Sources */,
+				BDDC642C28AE9F1A00BB3FE7 /* AlloyWheels.swift in Sources */,
 				BDDC641028AE973300BB3FE7 /* SceneDelegate.swift in Sources */,
+				BDDC642228AE9AC100BB3FE7 /* MersedesProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +342,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,7 +370,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
